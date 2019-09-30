@@ -4,7 +4,7 @@ def run_guessing_game
   num = rand(1..6)
   while user_input = num do
       puts "You guessed the correct number!"
-    else
+    elsif
       puts "Sorry! The computer guessed #{comp_num}."
     end
   end
