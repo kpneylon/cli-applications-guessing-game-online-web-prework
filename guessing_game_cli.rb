@@ -7,10 +7,7 @@ def run_guessing_game
         break
       elsif guess == computer_number
           puts "You guessed the correct number!"
-        elsif guess
-          puts "Sorry! The computer guessed #{computer_number}."
-      else
-          puts "Invalid input"
+      elsif guess
+          puts "Sorry! The computer guessed #{computer_number}.
       end
-    end
 end  
