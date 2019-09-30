@@ -4,10 +4,10 @@ def run_guessing_game
       computer_number = rand(1..6)
       if guess == "exit"
         puts "Goodbye!"
-        break
-      elsif guess == computer_number
+      end
+      if guess == computer_number
           puts "You guessed the correct number!"
-      elsif guess
+      elsif
           puts "Sorry! The computer guessed #{computer_number}.
       end
 end  
